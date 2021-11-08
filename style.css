@@ -1,0 +1,76 @@
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav ul{
+    list-style-type: none; 
+	display: flex;
+}
+
+#logo{
+	display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+/* Corps */
+#container1 {
+	display: flex;
+	flex-direction: row;
+	column-gap: 15px;
+}
+
+#hebergementsamarseille {
+	background-color: gainsboro;
+	width: 66%;
+}
+
+#lespluspopulaires {
+	background-color: gainsboro;
+	width: 33%;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    padding-top: 25px;
+	background-color: gainsboro;
+}
+
+footer p, footer ul{
+    font-size: 0.8em;
+}
+
+footer h2{
+    font-size: 1.1em;
+}
+
+
+#apropos{
+    width: 33%;
+}
+
+#noshebergements{
+    width: 33%;
+}
+
+#assistance{
+    width: 33%;
+}
+
+footer ul{
+    list-style-type: none; 
+}
+
+/* Global */
+
+@font-face
+{
+	font-family: 'FiraSans-Heavy';
+	src: url('C:/Users/1leod/Documents/Open_classrooms/2_Realisez_une_maquette_en_html_css/COURS_HTML/FiraSans-Heavy.ttf') format('ttf'),
+	url('C:/Users/1leod/Documents/Open_classrooms/2_Realisez_une_maquette_en_html_css/COURS_HTML/FiraSans-HeavyItalic.otf') format('otf');
+}
